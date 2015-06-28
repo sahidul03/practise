@@ -1,0 +1,32 @@
+<h4>User form</h4><br>
+
+<%= form_for @user,:html => {:multipart => true} do |f| %>
+    <% if @user.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@user.errors.count, "error") %></h2>
+          <% @user.errors.full_messages.each do |err| %>
+          <h4><%= err %></h4>
+          <% end %>
+         </div>
+    <% end %>
+
+    <p>
+      <%= f.label :name %><br>
+      <%= f.text_field :name %>
+    </p>
+    <p>
+      <%= f.label :age %><br>
+      <%= f.text_field :age %>
+    </p>
+    <p>
+      <%= f.label :profile_photo %><br>
+      <%= f.file_field :profile_photo %>
+    </p>
+    <p>
+      <%= f.label :albums %><br>
+      <%= f.file_field :files, multiple: true %>
+    </p>
+    <p>
+      <%= f.submit 'Add user' %>
+    </p>
+<% end %>
