@@ -24,10 +24,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem "rmagick"
-gem 'carrierwave', github:'carrierwaveuploader/carrierwave'
-gem 'carrierwave-datamapper', :require => 'carrierwave/datamapper'
-gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
-gem 'carrierwave-sequel', :require => 'carrierwave/sequel'
+gem 'carrierwave'
+# gem 'carrierwave', github:'carrierwaveuploader/carrierwave'
+# gem 'carrierwave-datamapper', :require => 'carrierwave/datamapper'
+# gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
+# gem 'carrierwave-sequel', :require => 'carrierwave/sequel'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

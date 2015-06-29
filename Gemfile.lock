@@ -1,13 +1,3 @@
-GIT
-  remote: git://github.com/carrierwaveuploader/carrierwave.git
-  revision: 05cd850e7517d1f4acdcb25002efd339bc9ed3b0
-  specs:
-    carrierwave (0.10.0)
-      activemodel (>= 3.2.0)
-      activesupport (>= 3.2.0)
-      json (>= 1.7)
-      mime-types (>= 1.16)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -46,24 +36,17 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.3.8)
     arel (6.0.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    bson (3.1.1)
     builder (3.2.2)
     byebug (5.0.0)
       columnize (= 0.9.0)
-    carrierwave-datamapper (0.1.1)
-      carrierwave
-      dm-core (~> 1.0)
-    carrierwave-mongoid (0.7.1)
-      carrierwave (>= 0.8.0, < 0.11.0)
-      mongoid (>= 3.0, < 5.0)
-      mongoid-grid_fs (>= 1.3, < 3.0)
-    carrierwave-sequel (0.1.0)
-      carrierwave
-      sequel
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -72,10 +55,7 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
-    connection_pool (2.2.0)
     debug_inspector (0.0.2)
-    dm-core (1.2.1)
-      addressable (~> 2.3)
     erubis (2.7.0)
     execjs (2.5.2)
     globalid (0.3.5)
@@ -96,23 +76,9 @@ GEM
     mime-types (2.6.1)
     mini_portile (0.6.2)
     minitest (5.7.0)
-    mongoid (4.0.2)
-      activemodel (~> 4.0)
-      moped (~> 2.0.0)
-      origin (~> 2.1)
-      tzinfo (>= 0.3.37)
-    mongoid-grid_fs (2.1.0)
-      mime-types (>= 1.0, < 3.0)
-      mongoid (>= 3.0, < 5.0)
-    moped (2.0.6)
-      bson (~> 3.0)
-      connection_pool (~> 2.0)
-      optionable (~> 0.2.0)
     multi_json (1.11.1)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
-    optionable (0.2.0)
-    origin (2.1.1)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -154,7 +120,6 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    sequel (4.23.0)
     spring (1.3.6)
     sprockets (3.2.0)
       rack (~> 1.0)
@@ -184,10 +149,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  carrierwave!
-  carrierwave-datamapper
-  carrierwave-mongoid
-  carrierwave-sequel
+  carrierwave
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
