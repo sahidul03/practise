@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 20150629063008) do
     t.string   "profile_photo"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
+    t.string   "albums"
   end
 
 end
